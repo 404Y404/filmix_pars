@@ -6,7 +6,7 @@ import os
 
 options = webdriver.ChromeOptions()
 options.add_argument("user-data-dir=/home/yura/selenium/adblock")
-options.add_argument('headless')
+# options.add_argument('headless')
 browser = webdriver.Chrome(chrome_options=options)
 selector_right = '[style="position: absolute; display: inline-block; width: 40px; height: 100%; text-align: left; background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0)); cursor: pointer; top: 0px; right: 0px; padding-top: 15px; visibility: visible; opacity: 1;"]'
 selector_left = 'style="position: absolute; display: inline-block; width: 40px; height: 100%; text-align: left; background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)); cursor: pointer; top: 0px; left: 0px; padding-top: 15px; visibility: visible; opacity: 1;"'
